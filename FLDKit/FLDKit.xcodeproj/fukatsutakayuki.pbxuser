@@ -10,6 +10,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3D2CD950104212AD00DB57B8 /* FLDKit */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* FLDKit */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FLDKit */,
+		);
 		codeSenseManager = 3D2CD957104212B000DB57B8 /* Code sense */;
 		executables = (
 			3D2CD950104212AD00DB57B8 /* FLDKit */,
@@ -22,7 +25,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,8 +40,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 272765613;
-			PBXWorkspaceStateSaveDate = 272765613;
+			PBXPerProjectTemplateStateSaveDate = 272765743;
+			PBXWorkspaceStateSaveDate = 272765743;
 		};
 		sourceControlManager = 3D2CD956104212B000DB57B8 /* Source Control */;
 		userBuildSettings = {
@@ -77,5 +80,26 @@
 	3D2CD957104212B000DB57B8 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	3D2CD9651042134100DB57B8 /* FLDView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {702, 1122}}";
+			sepNavSelRange = "{741, 0}";
+			sepNavVisRange = "{0, 968}";
+		};
+	};
+	3D2CD9661042134100DB57B8 /* FLDView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {702, 618}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 1030}";
+		};
+	};
+	3D2CD968104214A300DB57B8 /* FLDEnterFrameBeacon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {702, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 684}";
+		};
 	};
 }

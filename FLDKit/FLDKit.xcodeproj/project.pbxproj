@@ -15,6 +15,8 @@
 		2899E5220DE3E06400AC0155 /* FLDKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FLDKitViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FLDKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FLDKitViewController.m */; };
+		3D2CD9671042134100DB57B8 /* FLDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CD9651042134100DB57B8 /* FLDView.m */; };
+		3D2CD96A104214A300DB57B8 /* FLDEnterFrameBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CD969104214A300DB57B8 /* FLDEnterFrameBeacon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		28D7ACF70DDB3853001CB0EB /* FLDKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDKitViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FLDKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDKit_Prefix.pch; sourceTree = "<group>"; };
+		3D2CD9651042134100DB57B8 /* FLDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLDView.m; path = FLDKit/FLDView.m; sourceTree = "<group>"; };
+		3D2CD9661042134100DB57B8 /* FLDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLDView.h; path = FLDKit/FLDView.h; sourceTree = "<group>"; };
+		3D2CD968104214A300DB57B8 /* FLDEnterFrameBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLDEnterFrameBeacon.h; path = FLDKit/FLDEnterFrameBeacon.h; sourceTree = "<group>"; };
+		3D2CD969104214A300DB57B8 /* FLDEnterFrameBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLDEnterFrameBeacon.m; path = FLDKit/FLDEnterFrameBeacon.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FLDKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FLDKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +56,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3D2CD9621042133400DB57B8 /* FLDKit */,
 				1D3623240D0F684500981E51 /* FLDKitAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FLDKitAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* FLDKitViewController.h */,
@@ -105,6 +112,17 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2CD9621042133400DB57B8 /* FLDKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CD9661042134100DB57B8 /* FLDView.h */,
+				3D2CD9651042134100DB57B8 /* FLDView.m */,
+				3D2CD968104214A300DB57B8 /* FLDEnterFrameBeacon.h */,
+				3D2CD969104214A300DB57B8 /* FLDEnterFrameBeacon.m */,
+			);
+			name = FLDKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +182,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FLDKitAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* FLDKitViewController.m in Sources */,
+				3D2CD9671042134100DB57B8 /* FLDView.m in Sources */,
+				3D2CD96A104214A300DB57B8 /* FLDEnterFrameBeacon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
